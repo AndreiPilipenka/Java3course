@@ -11,7 +11,7 @@ public class FileImportTest {
 		public void readUsingScannerTest() throws IOException {
 		//FileImport readLinesTest = new FileImport();
 		ArrayList<String> result=FileImport.readUsingScanner(sourcefile);
-		System.out.println("Прочитанные строки" + result);
+		System.out.println("Прочитанные строки из файла " + result);
 	}
 }
 	
