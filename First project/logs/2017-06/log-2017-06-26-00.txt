@@ -1,0 +1,5 @@
+2017-06-26 00:28:18 [main] INFO  epam.com.task1pilipenka.calculations.VectorCalc - Vector value = epam.com.task1pilipenka.definition.Vector@dbd940d
+2017-06-26 00:30:48 [main] INFO  epam.com.task1pilipenka.calculations.VectorCalc - Vector value = epam.com.task1pilipenka.definition.Vector@dbd940d
+2017-06-26 00:31:31 [main] INFO  epam.com.task1pilipenka.calculations.VectorCalc - Vector value to the LOG = epam.com.task1pilipenka.definition.Vector@dbd940d
+2017-06-26 00:51:24 [main] INFO  epam.com.task1pilipenka.calculations.VectorCalc - Vector value to the LOG = epam.com.task1pilipenka.definition.Vector@2473b9ce
+2017-06-26 00:51:24 [main] INFO  epam.com.task1pilipenka.calculations.VectorCalc - Vector value to the LOG = epam.com.task1pilipenka.definition.Vector@58a90037

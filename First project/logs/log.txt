@@ -1,0 +1,2 @@
+2017-06-29 17:34:31 [main] INFO  epam.com.task1pilipenka.calculations.VectorCalc - Vector value to the LOG = Vector [x=-1.0, y=5.0, z=2.0]
+2017-06-29 17:35:42 [main] INFO  epam.com.task1pilipenka.calculations.VectorCalc - Vector value to the LOG = Vector [x=-1.0, y=5.0, z=2.0]
