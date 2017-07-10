@@ -8,11 +8,11 @@ public class InputFromConsole {
 		@SuppressWarnings("resource")
 		Scanner inputfromkeyb = new Scanner(System.in);
 		String x="";
-		System.out.print("Введите искомое слово ");
+		System.out.print("Р’РІРµРґРёС‚Рµ СЃР»РѕРІРѕ РґР»СЏ РїРѕРёСЃРєР° ");
 		if (inputfromkeyb.hasNext()) {
 			x=inputfromkeyb.next();
 		}
-		System.out.println("Искомое слово " + x);
+		System.out.println("РСЃРєРѕРјРѕРµ СЃР»РѕРІРѕ " + x);
 			
 	return x;}
 }

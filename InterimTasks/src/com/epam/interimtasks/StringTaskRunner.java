@@ -19,8 +19,8 @@ public class StringTaskRunner {
 			repeatcount=repeatcount+1;
 		}
 	}
-	if (repeatcount==0){ System.out.println("Искомое слово не найдено.");}
-	else System.out.println("Количество повторений слова равно "+ repeatcount);
+	if (repeatcount==0){ System.out.println("РСЃРєРѕРјРѕРµ СЃР»РѕРІРѕ РЅРµ РЅР°Р№РґРµРЅРѕ.");}
+	else System.out.println("РљРѕР»РёС‡РµСЃС‚РІРѕ РїРѕРІС‚РѕСЂРµРЅРёР№ СЂР°РІРЅРѕ "+ repeatcount);
 	System.out.println(strfromfile);
 	}
 
