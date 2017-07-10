@@ -1,0 +1,7 @@
+2017-07-05 13:26:08 [main] INFO  epam.com.task1pilipenka.calculations.VectorCalc - Vector value to the LOG = Vector [x=-1.0, y=5.0, z=2.0]
+2017-07-05 13:26:12 [main] INFO  epam.com.task1pilipenka.calculations.VectorCalc - Vector value to the LOG = Vector [x=4.0, y=0.0, z=0.0]
+2017-07-05 13:26:12 [main] INFO  epam.com.task1pilipenka.calculations.VectorCalc - Vector value to the LOG = Vector [x=0.0, y=0.0, z=10.0]
+2017-07-05 13:26:12 [main] INFO  epam.com.task1pilipenka.calculations.AngleCalc - AB x=4.0 CD X=0.0AB Y=0.0CD Y0.0AB z0.0CD Z10.0 
+2017-07-05 13:26:12 [main] INFO  epam.com.task1pilipenka.calculations.AngleCalc - Cos of angle equal to  = 0.0
+2017-07-05 13:26:12 [main] INFO  epam.com.task1pilipenka.calculations.AngleCalc - Rad angle equal to  = 1.5707963267948966
+2017-07-05 13:26:12 [main] INFO  epam.com.task1pilipenka.calculations.AngleCalc - Angle equal to  = 90.0

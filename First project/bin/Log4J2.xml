@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ <Configuration status = "WARN">
+        <Properties>
+            <property name="patternConsole">%d{yyyy-MM-dd HH:mm:ss} [%t] %-5level - %msg%n</property>
+            <property name="patternFile">%d{yyyy-MM-dd HH:mm:ss} [%t] %-5level %logger{5} - %msg%n</property>
+        </Properties>
+  <Appenders>
+   <Console name="Console" target="SYSTEM_OUT">
+    <PatternLayout pattern="${patternConsole}"/>
+   </Console>
+   <RollingFile name="File" fileName="logs/log.txt" append="true"
+        filePattern = "logs/$${date:yyyy-MM}/log-%d{yyyy-MM-dd-HH}.txt">
+      <PatternLayout pattern="${patternFile}"/>
+      <Policies>
+         <TimeBasedTriggeringPolicy/>
+         <SizeBasedTriggeringPolicy size="50 KB"/>
+     </Policies>
+   </RollingFile>
+  </Appenders>
+  
+  <Loggers>
+   <Root level = "trace">
+    <Appender-ref ref = "Console" level = "trace"/>
+    <Appender-ref ref = "File" level = "trace"/>
+   </Root>
+  </Loggers>
+ </Configuration>
