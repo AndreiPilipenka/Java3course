@@ -1,4 +1,4 @@
-package com.epam.interimtasks;
+package com.epam.interimtasks.pizzatask;
 
 public enum CandyIngredient {
 CHOCOLATE_FIGURES(8)

@@ -1,4 +1,4 @@
-package com.epam.interimtasks;
+package com.epam.interimtasks.pizzatask;
 
 public class SweetGiftSet {
 

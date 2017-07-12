@@ -1,9 +1,9 @@
-package com.epam.interimtasks;
+package com.epam.interimtasks.stringtask;
 
 import java.io.IOException;
 
-import com.epam.interimtasks.importdata.FileImportStr;
-import com.epam.interimtasks.importdata.InputFromConsole;
+import com.epam.interimtasks.stringtask.importdata.FileImportStr;
+import com.epam.interimtasks.stringtask.importdata.InputFromConsole;
 public class StringTaskRunner {
 	static String sourcefile = "./datafile/source.txt";
 	

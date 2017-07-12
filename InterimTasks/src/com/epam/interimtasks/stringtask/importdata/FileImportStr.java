@@ -1,4 +1,4 @@
-package com.epam.interimtasks.importdata;
+package com.epam.interimtasks.stringtask.importdata;
 
 import java.io.IOException;
 import java.nio.file.Path;
