@@ -1,21 +1,29 @@
 package com.epam.interimtasks.pizzatask;
 
 public enum CandyIngredient {
-CHOCOLATE_FIGURES(8)
-, CHOCOLATE_BRICKS(10)
-, LOLLIPOP(3)
-, CHOCOLATE_FLAKES(4)
-, BOX_OF_CANDIES(8)
-, CHUPA_CHUPS(1)
-, LIQUOR_SWEETS(9)
-, CHEWING_SWEETS(5);
+CHOCOLATE_FIGURES(8, "Шоколадные фигурки")
+, CHOCOLATE_BRICKS(10, "Шоколадные плитки" )
+, LOLLIPOP(3, "Леденец")
+, CHOCOLATE_FLAKES(4, "Шоколадные хлопья")
+, BOX_OF_CANDIES(8, "Конфеты в коробке")
+, CHUPA_CHUPS(1, "Чупа чупс")
+, LIQUOR_SWEETS(9, "Конфеты с ликером")
+, CHEWING_SWEETS(5, "Жевательные конфеты");
 private double cost;
+private String name;
 
-CandyIngredient(double cost){
+CandyIngredient(double cost, String name){
 	this.cost=cost;
+	this.name=name;
 }
 public double getCost() {
 	return cost;
 }
+public String getName(){
+	return name;
 }
+
+
+}
+
 
