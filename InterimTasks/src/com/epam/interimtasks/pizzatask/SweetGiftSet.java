@@ -65,7 +65,7 @@ public void addNewCandy(CandyIngredient newCandyIngredient){
 		}
 	}
 	else {
-		System.out.println("Подарок уже "+idGift+" полон");
+		System.out.println("Подарок "+idGift+"уже полон");
 	
 	}
 	

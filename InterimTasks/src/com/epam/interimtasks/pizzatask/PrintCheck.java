@@ -12,24 +12,29 @@ public class PrintCheck{
 		System.out.println("Клиент: "+sweetgiftset.getClientName());
 		System.out.println("Название: "+sweetgiftset.getGiftName());
 		System.out.println("----------------------------------");
-		
-		
+		System.out.printf("%-30.30s%2.0f%s\u20ac%n", "Подарочная упаковка, Ленты", sweetgiftset.getBoxPrice()+sweetgiftset.getRibbonsPrice(), " ");
+				
 }
 	public static void printSetContains(SweetGiftSet sweetgiftset){
-		double sum=0;
+		double sum=sweetgiftset.getBoxPrice()+sweetgiftset.getRibbonsPrice();
 		
 		for (int i=0; i<sweetgiftset.getGiftset().length; i++){
 			 {
 				  if (sweetgiftset.getGiftset()[i] != null) {
 					  sum+=sweetgiftset.getGiftset() [i].getCost();
-					  System.out.println(sweetgiftset.getGiftset() [i].getName()+" "+ sweetgiftset.getGiftset() [i].getCost());
+					  System.out.printf("%-24.24s%8.0f%s\u20ac%n", sweetgiftset.getGiftset() [i].getName() ,sweetgiftset.getGiftset() [i].getCost(), " ");
 				      }
 				}
 		}
-		double amount=sum*sweetgiftset.getQuantity()+sweetgiftset.getBoxPrice()+sweetgiftset.getRibbonsPrice(); 
-		System.out.println("Всего: "+sum);
-		System.out.println("Кол-во: "+ sweetgiftset.getQuantity());
-		System.out.println("Общая сумма: "+ amount);
+		int amount=(int) (sum*sweetgiftset.getQuantity()); 
+		
+		System.out.println("----------------------------------");
+		System.out.printf("%-24.24s%8.0f%s\u20ac%n", "Всего:", sum, " ");
+		System.out.printf("%-24.24s%8s%n", "Кол-во:", Integer.toString(sweetgiftset.getQuantity()), " ");
+		System.out.println("----------------------------------");
+		System.out.printf("%-24.24s%8s%s\u20ac%n", "Общая сумма:", amount, " ");
+		System.out.println("**********************************");
+				
 }	
 
 
