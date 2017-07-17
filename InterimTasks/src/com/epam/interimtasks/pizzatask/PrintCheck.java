@@ -40,7 +40,7 @@ public class PrintCheck{
 
 }
 	
-//System.out.println( a.getGiftset() [0].getName()+" "+ giftset1 [0].getCost()+" "+giftset1 [1].getName()+" "+ giftset1 [1].getCost() );
+
 	
 
 
